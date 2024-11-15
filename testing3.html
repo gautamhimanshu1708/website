@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motorcycle Body Styles</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-around;
+            background-color: #f8f8f8;
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        .navbar a {
+            text-decoration: none;
+            color: #333;
+            padding: 10px 20px;
+        }
+        .navbar a.active {
+            color: #007bff;
+            border-bottom: 2px solid #007bff;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+        .item {
+            text-align: center;
+        }
+        .item img {
+            width: 50px;
+            height: 50px;
+        }
+        .item p {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#">BRAND</a>
+        <a href="#">BUDGET</a>
+        <a href="#">DISPLACEMENT</a>
+        <a href="#" class="active">BODY STYLE</a>
+    </div>
+    <div class="container">
+        <div class="item">
+            <img src="sports-bike.png" alt="Sports Bike">
+            <p>Sports Bike</p>
+        </div>
+        <div class="item">
+            <img src="scooter.png" alt="Scooter">
+            <p>Scooter</p>
+        </div>
+        <div class="item">
+            <img src="cruiser.png" alt="Cruiser">
+            <p>Cruiser</p>
+        </div>
+        <div class="item">
+            <img src="commuter.png" alt="Commuter">
+            <p>Commuter</p>
+        </div>
+        <div class="item">
+            <img src="street-bike.png" alt="Street Bike">
+            <p>Street Bike</p>
+        </div>
+        <div class="item">
+            <img src="super-bike.png" alt="Super Bike">
+            <p>Super Bike</p>
+        </div>
+        <div class="item">
+            <img src="cafe-racer.png" alt="Cafe Racer">
+            <p>Cafe Racer</p>
+        </div>
+        <div class="item">
+            <img src="scrambler.png" alt="Scrambler">
+            <p>Scrambler</p>
+        </div>
+        <div class="item">
+            <img src="adventure.png" alt="Adventure">
+            <p>Adventure</p>
+        </div>
+        <div class="item">
+            <img src="moped.png" alt="Moped">
+            <p>Moped</p>
+        </div>
+        <div class="item">
+            <img src="tourer.png" alt="Tourer">
+            <p>Tourer</p>
+        </div>
+        <div class="item">
+            <img src="maxi-scooter.png" alt="Maxi Scooter">
+            <p>Maxi Scooter</p>
+        </div>
+    </div>
+</body>
+</html>

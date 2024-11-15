@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Reviews</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .header {
+            background: #fff;
+            padding: 20px;
+            border-bottom: 2px solid #0b0b0b;
+        }
+        .header h1 {
+            margin: 1px;
+        }
+        .search-bar {
+            margin: 20px 0;
+            
+        }
+        .search-bar input {
+            width: 40%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .reviews {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            border-top: 20px;
+        }
+        .review {
+            background: #fff;
+            padding: 5px;
+            border: 3px solid #ddd;
+            border-radius: 10px;
+            width: 30%;
+            margin-bottom: 20px;
+        }
+        .review h3 {
+            margin: 10px 0;
+        }
+        .review p {
+            color: #555;
+        }
+        .review .stars {
+            text-align: center;
+            
+        }
+        .review .time {
+            color: #999;
+        }
+        .review .read-more {
+            color: #3498db;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>User Reviews</h1>
+            <p>3000+ unbiased, verified reviews from bike owners. Know the pros and cons of 200+ bike models from real owners.</p>
+            <div class="search-bar">
+                <input type="text" for="search-bar" placeholder="Search bike e.g. Bajaj Dominar 400">
+            </div>
+        </div>
+        <div class="reviews">
+            <div class="review">
+                <h3>Dangar Bhautik Pratapbhai</h3>
+                <p>Review on <strong>Honda SP 125</strong></p>
+                <p class="stars"></p>
+                <p class="time">2 weeks ago</p>
+                <p>"I have been driving this machine for the last 1.5 years now and giving my..."</p>
+                <a href="#" class="read-more">Read Full Review</a>
+            </div>
+            <div class="review">
+                <h3>Pranav</h3>
+                <p>Review on <strong>Jawa 42 FJ</strong></p>
+                <p class="stars"></p>
+                <p class="time">9 hours ago</p>
+                <p>"I haven't owned it yet I have driven it many times gone on many road trips..."</p>
+                <a href="#" class="read-more">Read Full Review</a>
+            </div>
+            <div class="review">
+                <h3>Harsimar</h3>
+                <p>Review on <strong>Hero Xtreme 125R</strong></p>
+                <p class="stars"></p>
+                <p class="time">10 hours ago</p>
+                <p>"I bought this bike from Flipkart for like 87k approx and it's one of the best..."</p>
+                <a href="#" class="read-more">Read Full Review</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
